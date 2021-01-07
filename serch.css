@@ -1,0 +1,189 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* header--------------------------------- */
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #efede8;
+}
+
+.header h1 {
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header nav {
+  margin: 0 10px 0 auto;
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.header nav ul p {
+  font-size: 15px;
+}
+
+.header nav ul li {
+  margin: 0 0 0 15px;
+  font-size: 17px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header--------------------------------- */
+
+/* glovalNavigation--------------------------------- */
+.glovalNavigation {
+  height: 50px;
+  background-color: rgba(60, 110, 173, 0.7);
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.glovalNavigation nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.glovalNavigation nav ul {
+  font-size: 15px;
+}
+
+.glovalNavigation nav ul li {
+  margin: 0 0 0 35px;
+  font-size: 17px;
+}
+
+.glovalNavigation nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* glovalNavigation--------------------------------- */
+
+/* content--------------------------------- */
+.content {
+  flex: 1;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+
+.corpinfobox {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.corpinfobox form{
+  height:300px;
+}
+
+.corpinfobox .serchbox1{
+  height:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpinfobox .serchbox2{
+  height:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpinfobox .serchbox1 .serchbox2 input{
+  width: 300px;
+  padding: 10px 6px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgb(165, 165, 165);
+  border: solid 1px;
+  border-color: rgb(84, 84, 85);
+  background-color: white;
+  
+}
+
+.corpinfobox .sendbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+}
+
+.sendbutton input {
+  background-color: #39d;
+  border-color: #39d;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 6px;
+  width: 50%;
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  font-size: 14px;
+
+}
+
+
+
+/* content--------------------------------- */
+
+/* footer--------------------------------- */
+.footer {
+  height: 70px;
+  /* text-align: center; */
+  background-color: rgba(60, 110, 173, 0.7);
+}
+
+.footer .footer1 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer1 i {
+  margin: auto 20px;
+  color: white;
+}
+
+.footer .footer1 .my-icon {
+  font-size: 2.5em;
+  /*2.5倍の大きさに*/
+}
+
+.footer .footer2 {
+  height: 20px;
+}
+
+.footer .footer2 p {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* footer--------------------------------- */

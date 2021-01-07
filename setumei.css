@@ -1,0 +1,258 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* header--------------------------------- */
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #efede8;
+}
+
+.header h1 {
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header nav {
+  margin: 0 10px 0 auto;
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.header nav ul p {
+  font-size: 15px;
+}
+
+.header nav ul li {
+  margin: 0 0 0 15px;
+  font-size: 17px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header--------------------------------- */
+
+/* glovalNavigation--------------------------------- */
+.glovalNavigation {
+  height: 50px;
+  background-color: rgba(60, 110, 173, 0.7);
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.glovalNavigation nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+.glovalNavigation nav ul {
+  font-size: 15px;
+}
+
+.glovalNavigation nav ul li {
+  margin: 0 0 0 35px;
+  font-size: 17px;
+}
+
+.glovalNavigation nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* glovalNavigation--------------------------------- */
+
+
+
+/* content--------------------------------- */
+.content {
+  flex: 1;
+  background-color: #f7f6f4;
+}
+
+.cp_qa *, .cp_qa *:before, .cp_qa *:after {
+  font-family: 'FontAwesome', sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  .cp_qa {
+  margin: 0 auto;
+  background: #ffffff;
+  }
+  .cp_qa input {
+  display: none;
+  }
+  /* カテゴリー */
+  .cp_qa #cp_content1,
+  .cp_qa #cp_content2,
+  .cp_qa #cp_content3,
+  .cp_qa #cp_content4 {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #dddddd;
+  }
+  .cp_qa label.fa {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  text-align: center;
+  color: #bbbbbb;
+  border: 1px solid transparent;
+  }
+  .cp_qa label.fa:before {
+  margin-right: 10px;
+  }
+  .cp_qa label.fa[for*='1']:before { content: '\f201'; }
+  .cp_qa label.fa[for*='2']:before { content: '\f080'; }
+  .cp_qa label.fa[for*='3']:before { content: '\f157'; }
+  .cp_qa label.fa[for*='4']:before { content: '\f128'; }
+  .cp_qa label.fa:hover {
+  cursor: pointer;
+  color: #888888;
+  }
+  .cp_qa input:checked + label {
+  color: #555555;
+  border: 1px solid #dddddd;
+  border-bottom: 1px solid #ffffff;
+  }
+  /* --ブロックのバーの色 */
+  .cp_qa input:checked + label[for*='1'] {
+  border-top: 5px solid #00BCD4;
+  }
+  .cp_qa input:checked + label[for*='2'] {
+  border-top: 5px solid #FF5722;
+  }
+  .cp_qa input:checked + label[for*='3'] {
+  border-top: 5px solid #03A9F4;
+  }
+  .cp_qa input:checked + label[for*='4'] {
+  border-top: 5px solid #E91E63;
+  }
+  @media screen and (max-width: 650px) {
+  .cp_qa label.fa {
+  font-size: 0;
+  }
+  label:before {
+  font-size: 18px;
+  margin: 0;
+  }
+  }
+  @media screen and (max-width: 400px) {
+  .cp_qa label.fa {
+  padding: 15px;
+  }
+  .cp_qa label.fa:before {
+  margin-right: 0px;
+  }
+  }
+  /* QAブロック */
+  .cp_qa #fa1:checked ~ #cp_content1,
+  .cp_qa #fa2:checked ~ #cp_content2,
+  .cp_qa #fa3:checked ~ #cp_content3,
+  .cp_qa #fa4:checked ~ #cp_content4 {
+  display: block;
+  }
+  .cp_qa .cp_qain {
+  overflow-x: hidden;
+  margin: 0 auto;
+  color: #333333;
+  }
+  .cp_qa .cp_qain .cp_actab {
+  padding: 20px 0;
+  border-bottom: 1px dotted #cccccc;
+  }
+  /* 質問 */
+  .cp_qa .cp_qain label {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  cursor: pointer;
+  font-weight: 600;
+  }
+  /* ＋アイコン */
+  .cp_qa .cp_qain .cp_plus {
+  font-size: 2em;
+  line-height: 100%;
+  position: absolute;
+  z-index: 5;
+  margin-top: 3px;
+  margin-left: 10px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  }
+  /* 答え */
+  .cp_qa .cp_qain .cp_actab-content {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  margin: 0 48px 0 48px;
+  padding: 14px 0;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  opacity: 0;
+  }
+  /* 質問を開いた時の仕様 */
+  .cp_qa .cp_qain .cp_actab input[type=checkbox]:checked ~ .cp_actab-content {
+  height: auto;
+  opacity: 1;
+  }
+  /* 質問をクリックした時の▼アイコンの動き */
+  .cp_qa .cp_qain .cp_actab input[type=checkbox]:checked ~ .cp_plus {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  }
+
+/* content--------------------------------- */
+
+/* footer--------------------------------- */
+.footer {
+  height: 70px;
+  /* text-align: center; */
+  background-color: rgba(60, 110, 173, 0.7);
+}
+
+.footer .footer1 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer1 i {
+  margin: auto 20px;
+  color: white;
+}
+
+.footer .footer1 .my-icon {
+  font-size: 2.5em;
+  /*2.5倍の大きさに*/
+}
+
+.footer .footer2 {
+  height: 20px;
+}
+
+.footer .footer2 p {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* footer--------------------------------- */

@@ -1,0 +1,106 @@
+body {
+  background-color: #efede8;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.contents-area {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+#login-page .tittle-logo {
+  width: 172px;
+  margin: 12px auto;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#login-page {
+  position: relative;
+  top: auto;
+  left: auto;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  margin-top: 0;
+}
+
+#login-page .login-container {
+  width: 385px;
+  padding: 24px;
+  margin: 0 auto 16px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+}
+
+#login-page .login-container .login-form {
+  margin: 0 auto;
+}
+
+#login-page .login-container .login-form .devise-shared-links {
+  padding-top: 16px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 1;
+}
+
+#login-page .login-container .login-title h1 {
+  font-size: 15px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+#login-page .login-container form #user_id {
+  width: 100%;
+  padding: 10px 6px;
+  font-size: 16px;
+}
+
+#login-page .login-container form #user_pw {
+  width: 100%;
+  padding: 10px 6px;
+  font-size: 16px;
+}
+i {
+  position: absolute;
+  color: rgb(94, 94, 94);
+  right: 37px;
+  top: 172px;
+}
+/* ボタン系 */
+.btn.btn-primary {
+  background-color: #39d;
+  border-color: #39d;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 6px;
+  width: 50%;
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  font-size: 14px;
+}
+
+/* ボタン系 */
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+#login-page .sign-up-link {
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 13px;
+  font-weight: 400;
+}
