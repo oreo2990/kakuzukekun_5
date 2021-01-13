@@ -27,12 +27,21 @@ http://tealimpala23.sakura.ne.jp/kakuzukeDB_4_NIWA_24/login.php
 ###### ⑤分析結果画面
 ![](pic5.png "screenshot5")
 
+
 ###### ⑥直近3期のPL、BSの数値入力/登録画面
 ![](pic6.png "screenshot6")
 
-###### 
-![](pic.png "screenshot")
 
+###### ⑦mySQL登録情報の修正/削除画面
+![](pic7.png "screenshot7")
+
+
+###### ⑧財務分析関連の語句説明画面
+![](pic8.png "screenshot8")
+
+
+###### ⑨業績予測画面
+![](pic9.png "screenshot9")
 
 
 
@@ -52,6 +61,10 @@ PHP、mysql、chart.js
 ・入力データを、mysqlに保存し、保存データを「企業名」で検索できる様にしました。
 
 ・mysqlに保存したデータの修正及び削除ができる様にしました。
+
+・各種アカウントへのリンク
+
+・語句説明
 
 
 ・機械学習の回帰分析を実施
