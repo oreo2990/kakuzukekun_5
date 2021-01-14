@@ -1,6 +1,6 @@
 # 企業分析ツール「格付けくん」（完成形）を作成しました（制作期間合計約7日）。→記載中
 
-ページ構成は、???ページとなっています。
+ページ構成は、①ログイン画面、②アカウント作成画面、③格付検索画面、④格付検索の結果画面、⑤分析結果画面、⑥PL、BSの数値入力/登録画面、⑦mySQL登録情報の修正/削除画面、⑧財務分析関連の語句説明画面、⑨業績予測画面のページとなっています。
 
 http://tealimpala23.sakura.ne.jp/kakuzukeDB_4_NIWA_24/login.php
 
@@ -25,7 +25,7 @@ http://tealimpala23.sakura.ne.jp/kakuzukeDB_4_NIWA_24/login.php
 ![](pic5.png "screenshot5")
 
 
-###### ⑥直近3期のPL、BSの数値入力/登録画面
+###### ⑥PL、BSの数値入力/登録画面
 ![](pic6.png "screenshot6")
 
 
@@ -39,7 +39,6 @@ http://tealimpala23.sakura.ne.jp/kakuzukeDB_4_NIWA_24/login.php
 
 ###### ⑨業績予測画面
 ![](pic9.png "screenshot9")
-
 
 
 
