@@ -67,6 +67,8 @@ PHP、mysql、chart.JS、Python、Keras、scikit learn、TensorFlow.js
 　2019年度の上場企業2430社の従業員数、現金、総資産、売上のデータを準備。Google Colabortory、Keras、scitlearnを用いて、〜〜を作成。この時、活性化関数は、RMSprop、損失関数は、mean_squared_errorに設定しました。なお、平均絶対誤差（テストデータでの実際の値と予測値の差の絶対値を平均したもの）は、331,149,108,461(3311億円)と、全く当てにならない業績予測モデルとなりました。
 
 CSVファイルのソース
+
+
 https://qiita.com/teatime77/items/e480ae958bf81750753b
 
 
