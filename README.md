@@ -45,6 +45,9 @@ Id = niwa,pass = niwaでデータが入った状態で確認できます。
 ![](pic9.png "screenshot9")
 
 
+## 作成背景
+
+
 
 ## 使用技術
 PHP、mysql、chart.JS、Python、Keras、scikit learn、TensorFlow.js
