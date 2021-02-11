@@ -13,7 +13,7 @@
 
 http://tealimpala23.sakura.ne.jp/kakuzukeDB_4_NIWA_24/login.php
 
-Id = niwa,pass = niwaでデータが入った状態で確認できます。
+Id = niwa,pass = niwaで内容が確認できます。
 
 ###### ①ログイン画面
 ![](pic1.png "screenshot1")
